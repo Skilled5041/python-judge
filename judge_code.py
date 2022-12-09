@@ -87,11 +87,11 @@ for files in os.listdir('test_cases'):
 
         if score == max_score:
             print(
-                f"Test case {files.replace('.in' or '.out', '')}: {accepted} [{dec_places(total_time)}s"
+                f"Test case {files.replace('.in' or '.out', '')}: {accepted} [{dec_places(time_taken)}s"
                 f", {print_mem(memory)}] ({score}/{max_score})")
         else:
             print(
-                f"Test case {files.replace('.in' or '.out', '')}: {wrong_answer} [{dec_places(total_time)}s"
+                f"Test case {files.replace('.in' or '.out', '')}: {wrong_answer} [{dec_places(time_taken)}s"
                 f", {print_mem(memory)}] ({score}/{max_score})")
 
 print(f"\nResources: {dec_places(total_time)}s, {print_mem(total_memory)}")
