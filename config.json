@@ -1,0 +1,6 @@
+{
+  "test_cases_directory": "test_cases",
+  "test_code": "main.py",
+  "memory_limit": 64,
+  "time_limit": 1
+}
